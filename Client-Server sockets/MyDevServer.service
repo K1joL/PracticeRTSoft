@@ -1,0 +1,8 @@
+[Unit]
+Description=Server
+
+[Service]
+ExecStart=/home/user/Practice/day9/Server/build/server
+
+[Install]
+WantedBy=multi-user.target
